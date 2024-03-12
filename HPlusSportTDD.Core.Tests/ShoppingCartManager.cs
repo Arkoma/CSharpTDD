@@ -1,4 +1,6 @@
 ﻿
+using NUnit.Framework.Constraints;
+
 namespace HPlusSportTDD.Core
 {
     internal class ShoppingCartManager
@@ -9,7 +11,7 @@ namespace HPlusSportTDD.Core
 
         internal AddToCartResponse AddToCart(AddToCartRequest request)
         {
-            throw new NotImplementedException();
+            return new AddToCartResponse { Items = new AddToCartItem[] { request.Item}};
         }
     }
 }

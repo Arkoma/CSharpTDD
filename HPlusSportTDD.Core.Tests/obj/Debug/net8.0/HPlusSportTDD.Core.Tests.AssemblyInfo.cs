@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("HPlusSportTDD.Core.Tests")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c476cdf7518d1c9fddc4d1bc3a7f20d88b6d365d")]
 [assembly: System.Reflection.AssemblyProductAttribute("HPlusSportTDD.Core.Tests")]
 [assembly: System.Reflection.AssemblyTitleAttribute("HPlusSportTDD.Core.Tests")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

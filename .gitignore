@@ -1,0 +1,18 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs/HPlusSportTDD/FileContentIndex
+/.vs/HPlusSportTDD/v17/TestStore/0
+/.vs/HPlusSportTDD/v17
+/.vs/ProjectEvaluation
+/HPlusSportTDD.Core.Tests/bin/Debug/net8.0/HPlusSportTDD.Core.Tests.dll
+/HPlusSportTDD.Core.Tests/bin/Debug/net8.0/HPlusSportTDD.Core.Tests.pdb
+/HPlusSportTDD.Core.Tests/bin/Debug/net8.0/nunit_random_seed.tmp
+/HPlusSportTDD.Core.Tests/obj/Debug/net8.0/ref/HPlusSportTDD.Core.Tests.dll
+/HPlusSportTDD.Core.Tests/obj/Debug/net8.0/refint/HPlusSportTDD.Core.Tests.dll
+/HPlusSportTDD.Core.Tests/obj/Debug/net8.0/HPlusSportTDD.Core.Tests.AssemblyInfoInputs.cache
+/HPlusSportTDD.Core.Tests/obj/Debug/net8.0/HPlusSportTDD.Core.Tests.csproj.FileListAbsolute.txt
+/HPlusSportTDD.Core.Tests/obj/Debug/net8.0/HPlusSportTDD.Core.Tests.dll
+/HPlusSportTDD.Core.Tests/obj/Debug/net8.0/HPlusSportTDD.Core.Tests.pdb
+/HPlusSportTDD.Core.Tests/obj/Debug/net8.0/HPlusSportTDD.Core.Tests.sourcelink.json
