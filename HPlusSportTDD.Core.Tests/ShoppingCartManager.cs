@@ -6,16 +6,18 @@ namespace HPlusSportTDD.Core
     internal class ShoppingCartManager
 
     {
+        private List<AddToCartItem> _shoppingCart;
+
         public ShoppingCartManager()
         {
+            _shoppingCart = new List<AddToCartItem>();
         }
 
-        private List<AddToCartItem> _items = new List<AddToCartItem>();
 
         internal AddToCartResponse AddToCart(AddToCartRequest request)
         {
-            _items.Add(request.Item);
-            return new AddToCartResponse { Items = _items.ToArray<AddToCartItem>() };
+            _shoppingCart.Add(request.Item);
+            return new AddToCartResponse { Items = _shoppingCart.ToArray<AddToCartItem>() };
         }
     }
 }
