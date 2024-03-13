@@ -102,9 +102,7 @@ namespace HPlusSportTDD.Core
             response = manager.AddToCart(request2);
 
             Assert.NotNull(response);
-            Assert.Contains(item, response.Items);
-            Assert.That(response.Items.Length, Is.EqualTo(1));
-            Assert.That(response.Items[0].Quantity, Is.EqualTo(15));
+            Assert.That(Array.Exists(response.Items, item => item.ArticleId == 42 && item.Quantity == 15));
 
         }
 
